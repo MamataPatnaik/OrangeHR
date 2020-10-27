@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-26T12:31:01Z" name="OrangeHRSuite" finished-at="2020-10-26T12:31:21Z" duration-ms="19996">
+    <groups>
+    </groups>
+    <test started-at="2020-10-26T12:31:01Z" name="Test1" finished-at="2020-10-26T12:31:21Z" duration-ms="19996">
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Organization_GeneralInformation_01">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Organization_GeneralInformation_01@53a5e217]" started-at="2020-10-26T05:31:01Z" name="initializeTestBaseSetup" finished-at="2020-10-26T05:31:13Z" duration-ms="11453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Organization_GeneralInformation_01@53a5e217]" started-at="2020-10-26T05:31:13Z" name="setup" finished-at="2020-10-26T05:31:18Z" duration-ms="5605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GeneralInformationValidation()[pri:0, instance:com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Organization_GeneralInformation_01@53a5e217]" started-at="2020-10-26T05:31:18Z" name="GeneralInformationValidation" finished-at="2020-10-26T05:31:20Z" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GeneralInformationValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Organization_GeneralInformation_01@53a5e217]" started-at="2020-10-26T05:31:20Z" name="teardown" finished-at="2020-10-26T05:31:21Z" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Organization_GeneralInformation_01 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- OrangeHRSuite -->
+  <suite started-at="2020-10-26T12:31:21Z" name="allSuites" finished-at="2020-10-26T12:31:21Z" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- allSuites -->
+</testng-results>

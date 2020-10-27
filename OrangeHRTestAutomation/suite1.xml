@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="OrangeHRSuite" annotations="JDK" parallel="tests">
+
+	 <parameter name="appURL" value="https://opensource-demo.orangehrmlive.com"/>
+	<parameter name="browserType" value="chrome"/>
+  <!--  <parameter name="appURL" value="https://google.com"/>
+	<parameter name="browserType" value="chrome"/>-->
+
+<test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_01"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="Test2">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_02"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="Test3">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_03"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test thread-count="5" name="Test4">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_BCUI_01"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="Test5">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_BCUI_03"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="Test6">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_BCUI_06"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test7">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_BCUI_07"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Test8">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_MIM_01"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test9">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_PD_02"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Test10">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_PD_03"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Test11">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_PIC_01"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Test12">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_PIC_02"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Test13">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_PIC_03"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Test14">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_Admin_PIC_04"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test thread-count="5" name="Test15">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Job_Add_JobTitles_01"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test16">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Job_Delete_JobTitles_02"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test17">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Job_Employment_Status_01"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test18">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Job_JobCategories_01"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test19">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Job_PayGrade_01"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test20">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_Job_WorkShifts_01"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test21">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_UM_Add_User_01"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="Test22">
+    <classes>
+      <class name="com.automation.selenium.orangehr.tests.TC_OrangeHRM_AdminModule_UM_Add_User_02"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
