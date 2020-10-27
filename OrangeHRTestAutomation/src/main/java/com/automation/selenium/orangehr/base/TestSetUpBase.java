@@ -7,6 +7,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+/**
+ * Creating a new class
+ * @author mamata
+ *
+ */
 public class TestSetUpBase {
 	
 	private WebDriver driver;
