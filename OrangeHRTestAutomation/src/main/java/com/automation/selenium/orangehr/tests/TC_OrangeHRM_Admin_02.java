@@ -14,6 +14,7 @@ import com.automation.selenium.orangehr.pageobjects.SignInPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
+//implementing allure reports
 @Listeners(AllureReportListener.class)
 public class TC_OrangeHRM_Admin_02 extends TestSetUpBase{
 
